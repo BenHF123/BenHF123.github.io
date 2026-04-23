@@ -1,9 +1,7 @@
 
-# Benjamin Holsen Fidjeland
+# Benjamin Holsen Fidjeland Praksis Søknadd
 
-# 👋 Your Name
-
-## 🎥 Featured Video
+## 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Watch the video" width="600"/>
@@ -12,7 +10,7 @@
 
 ---
 
-## 🌐 Explore More
+## Om Meg
 <p align="center">
   <a href="https://yourwebsite.com">
     <img src="https://via.placeholder.com/150" alt="Website" width="150"/>
@@ -29,18 +27,7 @@
 
 ---
 
-## 🧠 About Me
-Write a short introduction about yourself here.
 
----
-
-## 🛠️ Projects
-- Project 1  
-- Project 2  
-- Project 3  
-
----
-
-## 📫 Contact
-- Email: your@email.com  
-- GitHub: https://github.com/yourusername  
+## Kontakt Information
+- Email: Benjaminhf6@gmail.com
+- Telefon Nummer: 469 57 615
