@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benjamin Holsen Fidjeland</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Sticky Navbar */
+    nav {
+      position: sticky;
+      top: 0;
+      background: #111;
+      padding: 10px;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header Banner */
+    .header img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    /* Video */
+    iframe {
+      max-width: 90%;
+    }
+
+    /* Image Buttons */
+    .links img {
+      width: 150px;
+      margin: 10px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .links img:hover {
+      transform: scale(1.1);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <a href="#video">Video</a>
+    <a href="#about">Om Meg</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <!-- Header -->
+  <div class="header">
+    <img src="github-header-banner.png" alt="Header Banner">
+  </div>
+
+  <!-- Video Section -->
+  <section id="video">
+    <h2>Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Om Meg</h2>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/benjamin-holsen-fidjeland-482975405/" target="_blank">
+        <img src="https://via.placeholder.com/150?text=LinkedIn" alt="LinkedIn">
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Kontakt Information</h2>
+    <p>Email: Benjaminhf6@gmail.com</p>
+    <p>Telefon: 469 57 615</p>
+  </section>
+
+</body>
+</html>
