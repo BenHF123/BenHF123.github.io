@@ -1,14 +1,10 @@
 
+
 <p align="center">
-  <img src="https://via.placeholder.com/800x200?text=Benjamin+Holsen+Fidjeland+Praksis+Søknad" />
+  <a href="#om-meg">
+    <img src="https://via.placeholder.com/800x200?text=Benjamin+Holsen+Fidjeland+Praksis+Søknad" />
+  </a>
 </p>
-
----
-
-## Navigasjon
-- [Video](#video)
-- [Om Meg](#om-meg)
-- [Kontakt Information](#kontakt-information)
 
 ---
 
@@ -20,6 +16,7 @@
 </p>
 
 ---
+
 
 ## Om Meg
 <p align="center">
@@ -41,3 +38,8 @@
 ## Kontakt Information
 - Email: Benjaminhf6@gmail.com  
 - Telefon Nummer: 469 57 615  
+
+
+<p align="center">
+  <a href="#">Back to top</a>
+</p>
