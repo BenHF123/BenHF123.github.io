@@ -21,7 +21,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/benjamin-holsen-fidjeland-482975405/">
-    <img src="https://www.clipartmax.com/png/middle/240-2405475_facebook-twitter-google-instagram-linkedin-linkedin-logo-png-download.png" alt="LinkedIn" width="200"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png" alt="LinkedIn" width="200"/>
   </a>
 </p>
 
