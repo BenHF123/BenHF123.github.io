@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="#om-meg">
-    <img src="https://via.placeholder.com/800x200?text=Benjamin+Holsen+Fidjeland+Praksis+Søknad" />
+    <img src="https://raw.githubusercontent.com/BenHF123/BenHF123.github.io/main/github-header-banner.png" />
   </a>
 </p>
 
