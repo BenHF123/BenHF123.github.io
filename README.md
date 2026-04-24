@@ -1,7 +1,18 @@
 
-# Benjamin Holsen Fidjeland Praksis Søknad
+<p align="center">
+  <img src="https://via.placeholder.com/800x200?text=Benjamin+Holsen+Fidjeland+Praksis+Søknad" />
+</p>
 
+---
 
+## Navigasjon
+- [Video](#video)
+- [Om Meg](#om-meg)
+- [Kontakt Information](#kontakt-information)
+
+---
+
+## Video
 <p align="center">
   <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID">
     <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg" alt="Watch the video" width="600"/>
@@ -27,7 +38,6 @@
 
 ---
 
-
 ## Kontakt Information
-- Email: Benjaminhf6@gmail.com
-- Telefon Nummer: 469 57 615
+- Email: Benjaminhf6@gmail.com  
+- Telefon Nummer: 469 57 615  
