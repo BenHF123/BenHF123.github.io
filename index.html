@@ -11,46 +11,52 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Sticky Navbar */
-    nav {
+    /* Sticky Header Banner */
+    .header {
       position: sticky;
       top: 0;
-      background: #111;
-      padding: 10px;
-      text-align: center;
       z-index: 1000;
+      background: #000;
     }
 
-    nav a {
+    .header img {
+      width: 100%;
+      max-height: 180px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Navigation Buttons on Banner */
+    .nav-buttons {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+    }
+
+    .nav-buttons a {
+      background: rgba(0,0,0,0.6);
       color: white;
-      margin: 0 15px;
+      padding: 10px 15px;
+      margin-left: 10px;
       text-decoration: none;
+      border-radius: 5px;
       font-weight: bold;
     }
 
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    /* Header Banner */
-    .header img {
-      width: 100%;
-      max-height: 250px;
-      object-fit: cover;
+    .nav-buttons a:hover {
+      background: rgba(255,255,255,0.2);
     }
 
     /* Sections */
     section {
-      padding: 50px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
 
-    /* Video */
     iframe {
       max-width: 90%;
     }
 
-    /* Image Buttons */
     .links img {
       width: 150px;
       margin: 10px;
@@ -66,40 +72,22 @@
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav>
-    <a href="#video">Video</a>
-    <a href="#about">Om Meg</a>
-    <a href="#contact">Kontakt</a>
-  </nav>
-
-  <!-- Header -->
+  <!-- Sticky Header Banner with Navigation -->
   <div class="header">
     <img src="github-header-banner.png" alt="Header Banner">
+    <div class="nav-buttons">
+      <a href="index.html">Video</a>
+      <a href="about.html">Om Meg</a>
+      <a href="contact.html">Kontakt</a>
+    </div>
   </div>
 
-  <!-- Video Section -->
-  <section id="video">
+  <!-- Video Section (Main Page) -->
+  <section>
     <h2>Video</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
   </section>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>Om Meg</h2>
-    <div class="links">
-      <a href="https://www.linkedin.com/in/benjamin-holsen-fidjeland-482975405/" target="_blank">
-        <img src="https://via.placeholder.com/150?text=LinkedIn" alt="LinkedIn">
-      </a>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Kontakt Information</h2>
-    <p>Email: Benjaminhf6@gmail.com</p>
-    <p>Telefon: 469 57 615</p>
-  </section>
-
 </body>
 </html>
+
