@@ -19,17 +19,12 @@
 
 
 ## Om Meg
+
+## Om Meg
+
 <p align="center">
-  <a href="https://yourwebsite.com">
-    <img src="https://via.placeholder.com/150" alt="Website" width="150"/>
-  </a>
-
-  <a href="https://github.com/yourusername">
-    <img src="https://via.placeholder.com/150" alt="GitHub" width="150"/>
-  </a>
-
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://via.placeholder.com/150" alt="LinkedIn" width="150"/>
+  <a href="https://www.linkedin.com/in/benjamin-holsen-fidjeland-482975405/">
+    <img src="https://via.placeholder.com/200?text=LinkedIn" alt="LinkedIn" width="200"/>
   </a>
 </p>
 
@@ -39,7 +34,3 @@
 - Email: Benjaminhf6@gmail.com  
 - Telefon Nummer: 469 57 615  
 
-
-<p align="center">
-  <a href="#">Back to top</a>
-</p>
