@@ -17,9 +17,6 @@
 
 ---
 
-
-## Om Meg
-
 ## Om Meg
 
 <p align="center">
