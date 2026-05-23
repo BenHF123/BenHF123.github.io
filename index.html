@@ -9,18 +9,29 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
+      background-color: black; /* svarte sider */
+      color: white;
+    }
+
+    /* Wrapper for hele innholdet */
+    .page-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background-color: #111;
+      min-height: 100vh;
+      box-shadow: 0 0 30px rgba(255,255,255,0.08);
     }
 
     .header {
       position: sticky;
       top: 0;
       z-index: 1000;
-      background: white;
+      background: #111;
     }
 
     .header img {
       width: 100%;
-      max-height: 180px;
+      max-height: 220px;
       object-fit: cover;
       display: block;
     }
@@ -28,55 +39,114 @@
     section {
       padding: 80px 20px;
       text-align: center;
+      border-bottom: 1px solid #333;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    a {
+      color: #4da6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     html {
       scroll-behavior: smooth;
+    }
+
+    /* LinkedIn ikon styling */
+    .linkedin-logo {
+      width: 120px;
+      transition: transform 0.3s ease;
+    }
+
+    .linkedin-logo:hover {
+      transform: scale(1.1);
+    }
+
+    /* Video styling */
+    .video-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .video-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
     }
   </style>
 </head>
 
 <body>
 
-  <!-- HEADER -->
-  <div class="header">
-    <img src="github-header-banner.png" alt="Header Banner">
-  </div>
+  <div class="page-container">
 
-  <!-- VIDEO -->
-  <section id="video">
-
-    <h2>Video</h2>
-
-    <div style="max-width: 900px; margin: 0 auto;">
-      <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-
-        <iframe
-          src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
-          allowfullscreen>
-        </iframe>
-
-      </div>
+    <!-- HEADER -->
+    <div class="header">
+      <img src="github-header-banner.png" alt="Header Banner">
     </div>
 
-  </section>
+    <!-- VIDEO -->
+    <section id="video">
 
-  <!-- ABOUT -->
-  <section id="om-meg">
-    <h2>Om Meg</h2>
+      <h2>Video</h2>
 
-    <a href="https://www.linkedin.com/in/benjamin-holsen-fidjeland-482975405/">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png" width="200"/>
-    </a>
-  </section>
+      <div class="video-wrapper">
+        <div class="video-container">
 
-  <!-- CONTACT -->
-  <section id="kontakt">
-    <h2>Kontakt</h2>
-    <p>Email: Benjaminhf6@gmail.com</p>
-    <p>Telefon: 469 57 615</p>
-  </section>
+          <iframe
+            src="https://www.youtube.com/embed/jHnT3j0Qgu8"
+            allowfullscreen>
+          </iframe>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="om-meg">
+      <h2>Om Meg</h2>
+
+      <a href="https://www.linkedin.com/in/benjamin-holsen-fidjeland-482975405/" target="_blank">
+        <img
+          class="linkedin-logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/3840px-LinkedIn_icon.svg.png"
+          alt="LinkedIn">
+      </a>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <p>Email: Benjaminhf6@gmail.com</p>
+      <p>Telefon: 469 57 615</p>
+    </section>
+
+  </div>
 
 </body>
 </html>
